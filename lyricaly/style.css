@@ -71,7 +71,7 @@ background-position: center;
 }
 h1{
   animation-name: bigEntrance;
-	animation-duration: 8s;
+	animation-duration: 13s;
 	animation-timing-function: ease-out;
 	visibility: visible !important;
 }
