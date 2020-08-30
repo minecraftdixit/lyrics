@@ -4,16 +4,20 @@ overflow: auto;
 }
 
 body {
-  background-color:white ;
+background-color: white;
 font-family:  monospace;
   margin: 0;
-  color:white;
+  color:black;
 
 }
 
 .up{
   position: absolute;
   z-index: 99;
+}
+.p2{
+  font-size: 10px;
+  color:white;
 }
 p{
   font-size: 10px;
@@ -30,23 +34,14 @@ border-radius: 50%;
  animation: scale 1s 5 ease-in;
 
 }
-.dark2{
-  overflow: visible;
-    background: white;
-    border-style: double;
-  position: relative;
-  border-radius: 50%;
-   width: 30px;
-    height: 30px;
-   animation: scale 1s 5 ease-in;
+.dar{  background-color:black ;
+font-family:  monospace;
+  margin: 0;
+  color:white;
+
 
 }
-.temp{
-height: 100%;
-width: 100%;
-color: black;
-position: relative;
-}
+
 
 button {
   cursor: pointer;
@@ -64,11 +59,9 @@ button:focus {
 header {
   font-family:  'ColorTube';
   background-image: url('undraw_media_player_ylg8.svg');
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: contain;
- background-position: center;
-  color: #e33636;
+background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +172,7 @@ ul.songs {
 }
 
 ul.songs li {
-  color:black;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -187,6 +180,7 @@ ul.songs li {
 }
 
 .container {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   margin: 30px auto;
   max-width: 100%;
   width: 500px;
