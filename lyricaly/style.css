@@ -33,6 +33,7 @@ border-radius: 50%;
  width: 30px;
   height: 30px;
  animation: scale 1s 5 ease-in;
+	color:black;
 
 }
 
